@@ -33,6 +33,11 @@
           <a href="./index.html" class="logo-word"
             >Web<span class="logo-piece-up">Studio</span></a
           >
+          <button class="menu-button">
+            <svg class="menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-solid-menu" />
+            </svg>
+          </button>
 
           <ul class="navigation-list">
             <li class="navigation-link">
@@ -67,6 +72,60 @@
     </header>
     <main>
       <!---->
+
+      <!-- Menu -->
+      <div class="menu-mobile">
+        <button class="circle-for-menu" type="button">
+          <svg class="cross" width="8" height="8">
+            <use href="./images/icons.svg#icon-cross" />
+          </svg>
+        </button>
+        <ul class="menu-nav">
+          <li class="menu-nav-item"><a class="menu-nav-link">Studio</a></li>
+          <li class="menu-nav-item"><a class="menu-nav-link">Portfolio</a></li>
+          <li class="menu-nav-item"><a class="menu-nav-link">Contacts</a></li>
+        </ul>
+        <ul class="menu-contact">
+          <li class="menu-contact-item">
+            <a class="menu-contact-link">+11 (000) 111-11-11</a>
+          </li>
+          <li class="menu-contact-item">
+            <a class="menu-contact-link">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="menu-media">
+          <li class="place-for-menu-media">
+            <a href="#" class="social-media-worker-link">
+              <svg class="icon-worker-media" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="place-for-menu-media">
+            <a href="#" class="social-media-worker-link">
+              <svg class="icon-worker-media" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter" />
+              </svg>
+            </a>
+          </li>
+          <li class="place-for-menu-media">
+            <a href="#" class="social-media-worker-link">
+              <svg class="icon-worker-media" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="place-for-menu-media">
+            <a href="#" class="social-media-worker-link">
+              <svg class="icon-worker-media" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--  -->
+
       <!--Big block-->
       <section class="hero">
         <div class="container hero-container">
@@ -302,7 +361,7 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img src="./images/img1.jpg" alt="Purple squads" width="360" />
+                <img src="./images/img1m.jpg" alt="Purple squads" width="360" />
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -317,7 +376,7 @@
             <li class="portfolio-item">
               <div class="box-for-overlay">
                 <img
-                  src="./images/img2.jpg"
+                  src="./images/img2m.jpg"
                   alt="Qr-code in a phone"
                   width="360"
                 />
@@ -335,7 +394,7 @@
             <li class="portfolio-item">
               <div class="box-for-overlay">
                 <img
-                  src="./images/img3.jpg"
+                  src="./images/img3m.jpg"
                   alt="Laptop and smartphone"
                   width="360"
                 />
@@ -353,7 +412,7 @@
             <li class="portfolio-item">
               <div class="box-for-overlay">
                 <img
-                  src="./images/img4.jpg"
+                  src="./images/img4m.jpg"
                   alt="Steering wheel in car"
                   width="360"
                 />
@@ -371,7 +430,7 @@
             <li class="portfolio-item">
               <div class="box-for-overlay">
                 <img
-                  src="./images/img5.jpg"
+                  src="./images/img5m.jpg"
                   alt="Phone and backgrounds"
                   width="360"
                 />
@@ -389,7 +448,7 @@
             <li class="portfolio-item">
               <div class="box-for-overlay">
                 <img
-                  src="./images/img6.jpg"
+                  src="./images/img6m.jpg"
                   alt="Happy woman check her phone"
                   width="360"
                 />
@@ -494,7 +553,7 @@
       </div>
     </footer>
     <!--     ###      -->
-    <div class="place-for-form">
+    <div class="place-for-form is-open">
       <div class="form-leave">
         <button class="circle-for-cross" type="button">
           <svg class="cross" width="8" height="8">
@@ -568,9 +627,12 @@
               ><span class="like-check">
                 <svg class="yes-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-yes" />
-                </svg> </span
-              >I accept the terms and conditions of the
-              <a href="#" class="form-link-privacy">Privacy Policy</a></label
+                </svg>
+              </span>
+              <div>
+                <p>I accept the terms and conditions of the</p>
+                <a href="#" class="form-link-privacy">Privacy Policy</a>
+              </div></label
             >
           </div>
           <button type="submit" class="send-btn">Send</button>
