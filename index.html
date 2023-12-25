@@ -28,17 +28,15 @@
       <div class="container container-header">
         <!---->
         <!--NAV-->
-
+        <a href="./index.html" class="logo-word"
+          >Web<span class="logo-piece-up">Studio</span></a
+        >
+        <button class="menu-button">
+          <svg class="menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-solid-menu" />
+          </svg>
+        </button>
         <nav class="navigation">
-          <a href="./index.html" class="logo-word"
-            >Web<span class="logo-piece-up">Studio</span></a
-          >
-          <button class="menu-button">
-            <svg class="menu" width="24" height="24">
-              <use href="./images/icons.svg#icon-solid-menu" />
-            </svg>
-          </button>
-
           <ul class="navigation-list">
             <li class="navigation-link">
               <a class="nav-link current" href="./index.html">Studio</a>
@@ -129,7 +127,7 @@
       <!--Big block-->
       <section class="hero">
         <div class="container hero-container">
-          <h1 class="hero-text">Effective Solutions For Your Business</h1>
+          <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
@@ -361,7 +359,18 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img src="./images/img1m.jpg" alt="Purple squads" width="360" />
+                <img
+                  src="./images/img1m.jpg"
+                  alt="Purple squads"
+                  width="288"
+                  class="img-m"
+                />
+                <img
+                  src="./images/img1p.jpg"
+                  alt="Purple squads"
+                  width="356"
+                  class="img-p"
+                />
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -378,8 +387,16 @@
                 <img
                   src="./images/img2m.jpg"
                   alt="Qr-code in a phone"
-                  width="360"
+                  width="288"
+                  class="img-m"
                 />
+                <img
+                  src="./images/img2p.jpg"
+                  alt="Purple squads"
+                  width="356"
+                  class="img-p"
+                />
+
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -396,8 +413,16 @@
                 <img
                   src="./images/img3m.jpg"
                   alt="Laptop and smartphone"
-                  width="360"
+                  width="288"
+                  class="img-m"
                 />
+                <img
+                  src="./images/img3p.jpg"
+                  alt="Purple squads"
+                  width="356"
+                  class="img-p"
+                />
+
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -414,8 +439,16 @@
                 <img
                   src="./images/img4m.jpg"
                   alt="Steering wheel in car"
-                  width="360"
+                  width="288"
+                  class="img-m"
                 />
+                <img
+                  src="./images/img4p.jpg"
+                  alt="Purple squads"
+                  width="356"
+                  class="img-p"
+                />
+
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -432,8 +465,16 @@
                 <img
                   src="./images/img5m.jpg"
                   alt="Phone and backgrounds"
-                  width="360"
+                  width="288"
+                  class="img-m"
                 />
+                <img
+                  src="./images/img5p.jpg"
+                  alt="Purple squads"
+                  width="356"
+                  class="img-p"
+                />
+
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -450,8 +491,16 @@
                 <img
                   src="./images/img6m.jpg"
                   alt="Happy woman check her phone"
-                  width="360"
+                  width="288"
+                  class="img-m"
                 />
+                <img
+                  src="./images/img6p.jpg"
+                  alt="Purple squads"
+                  width="356"
+                  class="img-p"
+                />
+
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -553,7 +602,7 @@
       </div>
     </footer>
     <!--     ###      -->
-    <div class="place-for-form is-open">
+    <div class="place-for-form">
       <div class="form-leave">
         <button class="circle-for-cross" type="button">
           <svg class="cross" width="8" height="8">
@@ -629,11 +678,12 @@
                   <use href="./images/icons.svg#icon-yes" />
                 </svg>
               </span>
-              <div>
-                <p>I accept the terms and conditions of the</p>
-                <a href="#" class="form-link-privacy">Privacy Policy</a>
-              </div></label
-            >
+
+              <p>
+                I accept the terms and conditions of the
+                <a href="#" class="form-link-privacy"> Privacy Policy</a>
+              </p>
+            </label>
           </div>
           <button type="submit" class="send-btn">Send</button>
         </form>
