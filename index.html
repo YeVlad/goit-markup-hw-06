@@ -195,6 +195,7 @@
           <ul class="team-list">
             <li class="worker">
               <img
+                srcset="./images/hu1.jpg 1x, ./images/hu1@2x.jpg 2x"
                 src="./images/hu1.jpg"
                 alt="Solid man with beard"
                 width="264"
@@ -235,7 +236,12 @@
               </div>
             </li>
             <li class="worker">
-              <img src="./images/hu2.jpg" alt="Happy man" width="264" />
+              <img
+                srcset="./images/hu2.jpg 1x, ./images/hu2@2x.jpg 2x"
+                src="./images/hu2.jpg"
+                alt="Happy man"
+                width="264"
+              />
               <div class="worker-text">
                 <h3 class="human-worker">Tom Ford</h3>
                 <p class="profesional">Frontend Developer</p>
@@ -273,6 +279,7 @@
             </li>
             <li class="worker">
               <img
+                srcset="./images/hu3.jpg 1x, ./images/hu3@2x.jpg 2x"
                 src="./images/hu3.jpg"
                 alt="Woman in pink clothes"
                 width="264"
@@ -313,7 +320,12 @@
               </div>
             </li>
             <li class="worker">
-              <img src="./images/hu4.jpg" alt="Man look at us" width="264" />
+              <img
+                srcset="./images/hu4.jpg 1x, ./images/hu4@2x.jpg 2x"
+                src="./images/hu4.jpg"
+                alt="Man look at us"
+                width="264"
+              />
               <div class="worker-text">
                 <h3 class="human-worker">Daniel Wilson</h3>
                 <p class="profesional">UI Designer</p>
@@ -359,24 +371,31 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img
-                  src="./images/img1m.jpg"
-                  alt="Purple squads"
-                  width="288"
-                  class="img-m"
-                />
-                <img
-                  src="./images/img1p.jpg"
-                  alt="Purple squads"
-                  width="356"
-                  class="img-p"
-                />
-                <img
-                  src="./images/img1.jpg"
-                  alt="Purple squads"
-                  width="360"
-                  class="img-d"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/img1m.jpg 1x, ./images/img1m@2x.jpg 2x"
+                    width="288"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/img1p.jpg 1x, ./images/img1p@2x.jpg 2x"
+                    width="356"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x"
+                    width="360"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="./images/img1m.jpg"
+                    alt="purple squares"
+                    width="288"
+                  />
+                </picture>
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -390,25 +409,31 @@
             </li>
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img
-                  src="./images/img2m.jpg"
-                  alt="Qr-code in a phone"
-                  width="288"
-                  class="img-m"
-                />
-                <img
-                  src="./images/img2p.jpg"
-                  alt="Purple squads"
-                  width="356"
-                  class="img-p"
-                />
-                <img
-                  src="./images/img2.jpg"
-                  alt="Purple squads"
-                  width="360"
-                  class="img-d"
-                />
-
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/img2m.jpg 1x, ./images/img2m@2x.jpg 2x"
+                    width="288"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/img2p.jpg 1x, ./images/img2p@2x.jpg 2x"
+                    width="356"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x"
+                    width="360"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="./images/img2m.jpg"
+                    alt="purple squares"
+                    width="288"
+                  />
+                </picture>
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -422,25 +447,31 @@
             </li>
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img
-                  src="./images/img3m.jpg"
-                  alt="Laptop and smartphone"
-                  width="288"
-                  class="img-m"
-                />
-                <img
-                  src="./images/img3p.jpg"
-                  alt="Purple squads"
-                  width="356"
-                  class="img-p"
-                />
-                <img
-                  src="./images/img3.jpg"
-                  alt="Purple squads"
-                  width="360"
-                  class="img-d"
-                />
-
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/img3m.jpg 1x, ./images/img3m@2x.jpg 2x"
+                    width="288"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/img3p.jpg 1x, ./images/img3p@2x.jpg 2x"
+                    width="356"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
+                    width="360"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="./images/img3m.jpg"
+                    alt="purple squares"
+                    width="288"
+                  />
+                </picture>
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -454,25 +485,31 @@
             </li>
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img
-                  src="./images/img4m.jpg"
-                  alt="Steering wheel in car"
-                  width="288"
-                  class="img-m"
-                />
-                <img
-                  src="./images/img4p.jpg"
-                  alt="Purple squads"
-                  width="356"
-                  class="img-p"
-                />
-                <img
-                  src="./images/img4.jpg"
-                  alt="Purple squads"
-                  width="360"
-                  class="img-d"
-                />
-
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/img4m.jpg 1x, ./images/img4m@2x.jpg 2x"
+                    width="288"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/img4p.jpg 1x, ./images/img4p@2x.jpg 2x"
+                    width="356"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/img4.jpg 1x, ./images/img4@2x.jpg 2x"
+                    width="360"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="./images/img4m.jpg"
+                    alt="purple squares"
+                    width="288"
+                  />
+                </picture>
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -486,25 +523,31 @@
             </li>
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img
-                  src="./images/img5m.jpg"
-                  alt="Phone and backgrounds"
-                  width="288"
-                  class="img-m"
-                />
-                <img
-                  src="./images/img5p.jpg"
-                  alt="Purple squads"
-                  width="356"
-                  class="img-p"
-                />
-                <img
-                  src="./images/img5.jpg"
-                  alt="Purple squads"
-                  width="360"
-                  class="img-d"
-                />
-
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/img5m.jpg 1x, ./images/img5m@2x.jpg 2x"
+                    width="288"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/img5p.jpg 1x, ./images/img5p@2x.jpg 2x"
+                    width="356"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/img5.jpg 1x, ./images/img5@2x.jpg 2x"
+                    width="360"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="./images/img5m.jpg"
+                    alt="purple squares"
+                    width="288"
+                  />
+                </picture>
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -518,28 +561,34 @@
             </li>
             <li class="portfolio-item">
               <div class="box-for-overlay">
-                <img
-                  src="./images/img6m.jpg"
-                  alt="Happy woman check her phone"
-                  width="288"
-                  class="img-m"
-                />
-                <img
-                  src="./images/img6p.jpg"
-                  alt="Purple squads"
-                  width="356"
-                  class="img-p"
-                />
-                <img
-                  src="./images/img6.jpg"
-                  alt="Purple squads"
-                  width="360"
-                  class="img-d"
-                />
-
+                <picture>
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./images/img6m.jpg 1x, ./images/img6m@2x.jpg 2x"
+                    width="288"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="./images/img6p.jpg 1x, ./images/img6p@2x.jpg 2x"
+                    width="356"
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="./images/img6.jpg 1x, ./images/img6@2x.jpg 2x"
+                    width="360"
+                    type="image/jpg"
+                  />
+                  <img
+                    src="./images/img6m.jpg"
+                    alt="purple squares"
+                    width="288"
+                  />
+                </picture>
                 <p class="paragraf-for-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  Manager App · Calorie Tracker App · Exotc Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
