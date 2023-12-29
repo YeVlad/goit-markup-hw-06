@@ -195,13 +195,24 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero_image.jpg);
+    url(../images/bgmobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* max-width: 320px; */
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bgmobile@2x.jpg);
+  }
 }
 
 .hero-container {
@@ -490,6 +501,7 @@ address {
   display: flex;
   align-items: center;
   flex-direction: column;
+  gap: 72px;
 }
 
 .logo-part {
@@ -507,6 +519,8 @@ address {
 
 .down-word {
   display: inline-block;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 .down-text {
@@ -517,7 +531,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 288px;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 
 .text-social {
@@ -533,7 +547,6 @@ address {
 .social-list.down-links {
   display: flex;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .social-media-worker-link.down-green {
@@ -989,6 +1002,22 @@ label {
   /*  */
   .hero {
     padding: 112px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bglaptop.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bglaptop@2x.jpg);
+    }
   }
 
   .hero-text {
@@ -1050,10 +1079,12 @@ label {
 
   .down-word {
     align-self: flex-start;
+    padding: 0;
   }
 
   .text-social {
     align-self: flex-start;
+    text-align: start;
   }
 
   .input-with-but {
@@ -1098,6 +1129,23 @@ label {
 
   .hero {
     padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bgpc.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bgpc@2x.jpg);
+    }
   }
 
   .hero-text {
@@ -1169,8 +1217,9 @@ label {
   }
 
   .container.down-container {
-    padding: 100px 16px;
+    padding: 100px 15px;
     align-items: baseline;
+    gap: 0;
   }
 
   .logo-word.down-word {
