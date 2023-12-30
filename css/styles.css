@@ -1074,6 +1074,7 @@ label {
   .container.down-container {
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
     padding-left: 108px;
   }
 
